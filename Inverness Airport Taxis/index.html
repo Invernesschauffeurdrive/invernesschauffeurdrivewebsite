@@ -107,15 +107,9 @@
               <h4>
                 Get A Taxi Now
               </h4>
-              <form action="">
-                <input type="text" placeholder="Car Type">
-                <input type="text" placeholder="Pick Up Location">
-                <input type="text" placeholder="Drop Location">
-                <div class="btm_input">
-                  <input type="text" placeholder="Your Phone Number">
-                  <button>Book Now</button>
-                </div>
-              </form>
+              <iframe src="https://invernessairporttaxis.trial.easytaxioffice.com/booking/widget?site_key=7e3f3d3085b900d598bc40543d611575" id="eto-iframe-booking-widget" allow="geolocation" width="100%" height="250" scrolling="no" frameborder="0" style="width:1px; min-width:100%; border:0;"></iframe>
+              <script src="https://invernessairporttaxis.trial.easytaxioffice.com/assets/plugins/iframe-resizer/iframeResizer.min.js"></script>
+              <script>iFrameResize({log:false, targetOrigin:'*', checkOrigin:false}, "iframe#eto-iframe-booking-widget");</script>
             </div>
           </div>
         </div>
